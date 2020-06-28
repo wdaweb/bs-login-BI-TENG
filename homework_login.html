@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+
+  <title>login</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-family: 微軟正黑體;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      background: url(./login.jpg) no-repeat center center/cover;
+    }
+
+    p {
+      font-size: 10px;
+    }
+
+    .mt-5 {
+      margin-top: 2.5rem !important;
+    }
+
+    .row {
+      width: 400px;
+      height: 350px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    #circle {
+      background: rgba(8, 85, 228, 0.61);
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container d-flex justify-content-center align-items-center h-100">
+    <div class="row d-flex flex-column justify-content-center align-items-center">
+      <div class="col-auto d-flex flex-column justify-content-center align-items-center">
+        <div id="circle" class="rounded-circle d-flex justify-content-center align-items-center mt-n5" style="width: 75px; height: 75px;">
+          <h1 class="fas fa-user-alt text-white"></h1>
+        </div>
+        <div class="h1 text-center mb-4 mt-3 text-black-50 ">Sign In</div>
+        <form>
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text bg-white border-white text-black-50"><i class="fas fa-user"></i></div>
+              </div>
+              <input type="text" class="form-control border-0" id="inlineFormInputGroupUsername2"
+                placeholder="Username">
+            </div>
+          </div>
+
+          <div class="form-group align-self-center">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text bg-white border-white text-black-50"><i class="fas fa-lock"></i></div>
+              </div>
+              <input type="password" class="form-control border-0" id="exampleInputPassword1" placeholder="Password">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+          </div>
+
+          <div class="form-group form-check text-black-50 d-flex flex-row justify-content-between">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1" style="font-size: 10px;">Remember me</label>
+            <p>Forgot Password?</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
